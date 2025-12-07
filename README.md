@@ -6,8 +6,8 @@ I tested my custom SVM classifier by comparing the decision boundaries it genera
 ![](sepal_features.png)
 
 The sci-kit learn SVM (see source code in file "scikitlearn.py") was able to classify 72.5% of flowers correctly using a linear kernel. This increased to 80.83% when using an RBF kernel. See these graphs below demonstrating the decision boundaries:
-![](skl-linear.png)
-![](skl-rbf.png)
+![](skl_linear.png)
+![](skl_rbf.png)
 
 My custom SVM achieved 65% accuracy with a linear kernel and 70.833% with an RBF kernel. See the below generated graphs (generated in python using the outputs from my c++ program, see "linearOutput.txt" and "rbfOutput.txt" for the original outputs) for the decision boundaries. 
 ![](my_linear.png)
