@@ -10,6 +10,7 @@ The sci-kit learn SVM (see source code in file "scikitlearn.py") was able to cla
 ![](skl_rbf.png)
 
 My custom SVM achieved 65% accuracy with a linear kernel and 70.833% with an RBF kernel. See the below generated graphs (generated in python using the outputs from my c++ program, see "linearOutput.txt" and "rbfOutput.txt" for the original outputs) for the decision boundaries. 
+
 ![](my_linear.png)
 ![](my_rbf.png)
 
